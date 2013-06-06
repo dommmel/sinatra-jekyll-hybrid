@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>My Awesome Static Website</title>
+
+    <!-- include css -->
+    {% stylesheet app %}
+
+</head>
+<body>
+
+  <h1 id="logo">
+    <img src="{% asset_path logo.png %}"/>
+  </h1>
+
+  <div id="main">
+    {{ content }}
+  </div>
+
+  <div>
+    <form id="contactform" action="/contact" method="post">
+      <label for="data">Your data</label>
+      <input type="text" size="30" name="data"> 
+      <input type="submit" name="submit" value="submit" id="submit_button" />
+    </form>
+  </div>
+
+  <!-- include javascript -->
+  {% javascript app %}
+
+</body>
+</html>
