@@ -1,6 +1,6 @@
 # Jekyll/Sinatra hybrid app
 
-Template for an app using jekyll and sinatra that can be used for simple websites with some ajax components, e.g. a contact form.
+App template using jekyll and sinatra that can be used for simple websites with some ajax components, e.g. a contact form.
 
 This reposititory was meant as a starting point to be used with [github-heroku-jekyll-hook](https://github.com/dommmel/github-heroku-jekyll-hook) as described in the article "[Automatically build and deploy Jekyll sites to heroku](https://coderwall.com/p/st0hcq)".
 
@@ -8,4 +8,7 @@ This reposititory was meant as a starting point to be used with [github-heroku-j
 
 * install gems: ```bundle install```
 * build: ```jekyll build```
-* run: ```foreman run``
+* run: ```foreman start```
+
+## [Live Demo](http://sinatra-jekyll-hybrid.herokuapp.com/)
+
